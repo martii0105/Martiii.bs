@@ -1,5 +1,5 @@
 { 
-    "name": "turbo-bot",
+    "name": "Martii-bot",
     "version": "2.1.9",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
@@ -26,13 +26,13 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/TURBO-NITRO1/TURBITO-BOT-V5",
+    "homepage": "https://github.com/Martinaa878/mbot",
     "author": {
-        "name": "TURBO"
+        "name": "Martii"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TURBO-NITRO1/TURBITO-BOT-V5.git"
+        "url": "https://github.com/Martinaa878/mbot.git"
     },
     "bugs": {
         "url": "https://github.com/TURBO-NITRO1/TURBITO-BOT-V5/issues"
