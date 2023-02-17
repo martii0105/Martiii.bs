@@ -14,6 +14,6 @@ handler.help = ['delexpired']
 handler.tags = ['owner']
 handler.command = /^(delexpired)$/i
 handler.rowner = true
-handler.group = true
+handler.grupo = true
 
 export default handler
