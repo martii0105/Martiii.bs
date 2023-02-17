@@ -2,7 +2,7 @@
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	
    let tee = `🧑🏻‍💻 Ingrese un texto corto\n\n👉🏻 Ejemplo  : ${usedPrefix + command} TURBO`
-   let too = `🧑🏻‍💻 Separe EL texto con 👉🏻 + \n\n🧑🏻‍💻 Ejemplo : \n${usedPrefix + command} Turbo + nitro`
+   let too = `🧑🏻‍💻 Separe EL texto con 👉🏻 + \n\n🧑🏻‍💻 Ejemplo : \n${usedPrefix + command} Martii + bot`
     m.react(rwait)
 let type = (command).toLowerCase()
 switch (type) {
@@ -27,7 +27,7 @@ switch (type) {
 	break 
 	case 'wolf': 
    if (!text) throw tee
-   let wo = global.API('fgmods', '/api/textpro/logowolf2', { text: 'TURBO', text2: text}, 'apikey')
+   let wo = global.API('fgmods', '/api/textpro/logowolf2', { text: 'MARTII', text2: text}, 'apikey')
 	conn.sendFile(m.chat, wo, 'logo.png', `🧑🏻‍💻 Resultado`, m)
 	m.react(done)
 	break 
