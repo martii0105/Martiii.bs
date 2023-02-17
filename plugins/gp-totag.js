@@ -6,9 +6,9 @@ let handler = async (m, { conn, text, participants}) => {
     conn.sendMessage(m.chat, { forward: m.quoted.fakeObj, mentions: users } )
 }
 
-handler.help = ['totag']
-handler.tags = ['group']
-handler.command = /^(totag|tag)$/i
+handler.help = ['notify']
+handler.tags = ['grupo']
+handler.command = /^(notify|tag)$/i
 
 handler.admin = true
 handler.group = true
