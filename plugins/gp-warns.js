@@ -5,7 +5,7 @@ let handler = async (m, { conn, args, groupMetadata}) => {
        let warn = global.db.data.users[who].warn
        let name = conn.getName(who)
       m.reply(`
-╭➣᳆⃟𝐁𝐘 𝐓𝐔𝐑𝐁𝐎᳆͜͡➣╮
+╭➣➳❥𝑴𝒂𝒓𝒕𝒊𝒊𝒃𝒐𝒕👸🏻➣╮
 ┃❮❮ ADVERTENCIAS ❯❯
 ┃
 ┃ Nombre 👉🏻 ${name} 
