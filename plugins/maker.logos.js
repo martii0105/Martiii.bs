@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	
-   let tee = `🧑🏻‍💻 Ingrese un texto corto\n\n👉🏻 Ejemplo  : ${usedPrefix + command} TURBO`
+   let tee = `🧑🏻‍💻 Ingrese un texto corto\n\n👉🏻 Ejemplo  : ${usedPrefix + command} MARTIIBOT`
    let too = `🧑🏻‍💻 Separe EL texto con 👉🏻 + \n\n🧑🏻‍💻 Ejemplo : \n${usedPrefix + command} Martii + bot`
     m.react(rwait)
 let type = (command).toLowerCase()
